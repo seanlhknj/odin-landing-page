@@ -3,9 +3,13 @@
     color: #F9FAF8;
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -18,6 +22,7 @@ ul {
 
 .hero-main, .hero-secondary {
     width: 450px;
+    margin-bottom: 10px;
 }
 
 .hero-main {
@@ -51,14 +56,16 @@ ul {
 .header-bottom {
     display: flex;
     justify-content: center;
-    gap: 220px;
+    gap: 250px;
 }
 
 button {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
-    padding: 4px 24px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .body-1 {
@@ -115,8 +122,9 @@ img {
 
 .quotee {
     color: #1F2937;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
+    width: 750px;
     margin: 0 auto;
 }
 
@@ -126,6 +134,7 @@ img {
     margin: 70px auto;
     padding: 40px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .body-3 button {
@@ -135,6 +144,7 @@ img {
 .box {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 400px;
 }
 
